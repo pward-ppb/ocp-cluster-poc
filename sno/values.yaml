@@ -1,0 +1,11 @@
+# Default values for clusters.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+cluster:
+  baseDomain: clusters.k8spoc.net
+  region: eu-west-1
+
+clusterSet:
+  enabled: true
+  name: demo
